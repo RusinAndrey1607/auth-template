@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { validationResult } from "express-validator";
 import { ApiError } from "../exceptions/apiErrors";
 import { authService } from '../services/authService';
-#import { mailService } from '../services/mailService';
+//import { mailService } from '../services/mailService';
 import { UserDto } from '../dtos/userDto';
 
 class AuthController {
